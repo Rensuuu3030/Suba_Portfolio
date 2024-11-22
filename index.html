@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Suba Portfolio</title>
+</head>
+<body>
+  <header>
+    <div class="logo">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAtSxxoCSit_8FW2iUucGPtejz1G_kY7Hcog&s" alt="Logo">
+    </div>
+    <nav>
+      <a href="#hobbies" class="active">Hobbies</a>
+      <a href="#skills">Skills</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#education">Education</a>
+      <a href="#socials">Socials</a>
+    </nav>
+  </header>
+ 
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-text">
+      <p class="greeting">Hello Everyone.</p>
+      <h1>I’m <span>Clarence Suba</span></h1>
+      <p class="role">Web Designer & Developer</p>
+    </div>
+    <div class="hero-image">
+      <img src="subahero.png" alt="">
+    </div>
+  </section>
+
+<!-- --------------hobbies---------- -->
+<h1 class="subtitle">Hobbies</h1>
+<div id="slideshow">
+ <div class="slide-container">
+    <span class="slider-span" id="slider-span1"></span>
+    <span class="slider-span" id="slider-span2"></span>
+    <span class="slider-span" id="slider-span3"></span>
+    <span class="slider-span" id="slider-span4"></span>
+    <span class="slider-span" id="slider-span5"></span>
+    <span class="slider-span" id="slider-span6"></span>
+    <span class="slider-span" id="slider-span7"></span>
+
+    <div class="image-slider">
+      <div class="slides-div" id="slide-1">
+        <img src="img1.png" alt="" class="img"
+        id="img1">
+        <a href="#slider-span1" class="button"
+        id="button-1"></a>
+      </div>
+      <div class="slides-div" id="slide-2">
+        <img src="img2.png" alt="" class="img"
+        id="img2">
+        <a href="#slider-span2" class="button"
+        id="button-2"></a>
+      </div>
+      <div class="slides-div" id="slide-3">
+        <img src="img3.png" alt="" class="img"
+        id="img3">
+        <a href="#slider-span3" class="button"
+        id="button-3"></a>
+      </div>
+      <div class="slides-div" id="slide-4">
+        <img src="img4.png" alt="" class="img"
+        id="img4">
+        <a href="#slider-span4" class="button"
+        id="button-4"></a>
+      </div>
+      <div class="slides-div" id="slide-5">
+        <img src="img5.png" alt="" class="img"
+        id="img5">
+        <a href="#slider-span5" class="button"
+        id="button-5"></a>
+      </div>
+      <div class="slides-div" id="slide-6">
+        <img src="img6.png" alt="" class="img"
+        id="img6">
+        <a href="#slider-span6" class="button"
+        id="button-6"></a>
+      </div>
+      <div class="slides-div" id="slide-7">
+        <img src="img7.png" alt="" class="img"
+        id="img7">
+        <a href="#slider-span7" class="button"
+        id="button-7"></a>
+      </div>
+    </div>
+ </div>
+
+
+
+<!-- -----------about------------- -->
+<div id="about">
+  <div class="container">
+      <div class="row">
+          <div class="about-col-1">
+              <img src="personal.png">
+          </div>
+          <div class="about-col-2">
+              <h1 class="sub-title">My Personal Skills</h1>
+              <p>Lorem ipsum dolor sit amet, 
+                  <br>consectetur adipisicing elit. 
+                  <br>Nulla tempore labore reiciendis 
+                  <br>consectetur provident amet iste 
+                  <br>laboriosam explicabo magni quas 
+                  <br>earum dolorum, sequi autem possimus 
+                  <br>unde ipsa placeat ipsam deleniti.</p>
+              
+              <div class="tab-titles">
+                  <p class="tab-links active-link" onclick="opentab('web')">Web Development</p>
+                  <p class="tab-links" onclick="opentab('appd')">App Design</p>
+                  <p class="tab-links" onclick="opentab('ill')">Illustrator</p>
+              </div>
+              <div class="tab-contents active-tab" id="web">
+                <img src="scale1.png">
+              </div>
+              <div class="tab-contents" id="appd">
+                <img src="scale2.png">
+              </div>
+              <div class="tab-contents" id="ill">
+                <img src="scale3.png">
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+<!-- -----------gallery------------- -->
+<div id="photography">
+  <div class="container">
+      <h1 class="sub-title">My Personal Gallery</h1>
+      <div class="gallery-list">
+          <div class="gallery">
+              <img src="g1.png">
+              <div class="layer">
+                  <h3>Computer Programming</h3>
+
+                  <a href="#"><i<i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              </div>
+          </div>
+          <div class="gallery">
+              <img src="g2.png">
+              <div class="layer">
+                  <h3>Camera Photography</h3>
+
+                  <a href="#"><i<i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              </div>
+          </div>
+          <div class="gallery">
+              <img src="g3.jpg">
+              <div class="layer">
+                  <h3>Tournament</h3>
+
+                  <a href="#"><i<i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              </div>
+          </div>
+      </div>
+      <a href="#" class="btn">See more</a>
+  </div>
+</div>
+
+<!-- -----------educational bg------------- -->
+<div id="portfolio">
+  <div class="container">
+      <h1 class="sub-title">Educational Background</h1>
+      <div class="edbg">
+        <img src="edbg.png">
+    </div>
+      <div class="portfolio-list">
+          <div>
+              <i class="fa-solid fa-code"></i>
+              <h2>Junior High School</h2>
+              <p>Lorem ipsum dolor sit, amet consectetur 
+              adipisicing elit. Maiores quisquam, 
+              quidem aut provident laboriosam assumenda 
+              atque et doloremque cumque sapiente nam 
+              mollitia ex sit, qui molestias ea porro 
+              consequuntur nostrum.</p>
+              <a href="#">learn more</a>
+          </div>
+          <div>
+              <i class="fa-solid fa-image"></i>
+              <h2>Senior High School</h2>
+              <p>Lorem ipsum dolor sit, amet consectetur 
+              adipisicing elit. Maiores quisquam, 
+              quidem aut provident laboriosam assumenda 
+              atque et doloremque cumque sapiente nam 
+              mollitia ex sit, qui molestias ea porro 
+              consequuntur nostrum.</p>
+              <a href="#">learn more</a>
+          </div>
+          <div>
+              <i class="fa-solid fa-users-rectangle"></i>
+              <h2>College</h2>
+              <p>Lorem ipsum dolor sit, amet consectetur 
+              adipisicing elit. Maiores quisquam, 
+              quidem aut provident laboriosam assumenda 
+              atque et doloremque cumque sapiente nam 
+              mollitia ex sit, qui molestias ea porro 
+              consequuntur nostrum.</p>
+              <a href="#">learn more</a>
+          </div>
+      </div>
+  </div>
+</div>
+
+<!-- -----------foot------------- -->
+<footer>
+  <div class="footerContainer">
+      <div class="socialIcons">
+          <a href=""><i class="fa-brands fa-facebook"></i></a>
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+          <a href=""><i class="fa-brands fa-twitter"></i></a>
+          <a href=""><i class="fa-brands fa-google-plus"></i></a>
+          <a href=""><i class="fa-brands fa-youtube"></i></a>
+      </div>
+      <div class="footerNav">
+          <ul><li><a href="">Contact Me!</a></li></ul>
+      </div>
+      
+  </div>
+</footer>
+<div class="copyright">
+  <p>Copyright © SUBA. <i class="fa-solid fa-heart"></i> All rights reserved 2024.</p>
+</div>
+<script>
+  var tablinks = document.getElementsByClassName("tab-links");
+  var tabcontents = document.getElementsByClassName("tab-contents");
+  function opentab(tabname){
+      for(tablink of tablinks){
+          tablink.classList.remove("active-link");
+      }
+      for(tabcontent of tabcontents){
+          tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+  }
+</script>
+
+<script>
+  var sidemeu = document.getElementById("sidemenu");
+
+  function openmenu(){
+      sidemeu.style.right = "0";
+  }
+  function closemenu(){
+      sidemeu.style.right = "-200px";
+  }
+</script>
+<script>
+  let nav = document.querySelector('nav');
+
+window.addEventListener('scroll', () =>{
+if (window.scrollY > 100) {
+  nav.classList.add('scrolled');
+} else {
+  nav.classList.remove('scrolled');
+}
+});
+</script>
+
+</body>
+</html>
